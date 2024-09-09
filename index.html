@@ -36,12 +36,12 @@
       </nav>
       <section id="profile">
         <div class="section_pic-container">
-            <img src="./assets/profile.jpeg" alt="Martyna Zglinska profile picture">
+            <img src="./assets/profile.jpeg" alt="Martyna Zglinska profile picture"/>
         </div>
         <div class="section_text">
-        <p class="section_text_p1">Hello, I'm</p>
-        <h1 class="title"> Martyna Zglinska</h1>
-        <p class="section_text_p2">Data Analyst</p>
+         <p class="section_text_p1">Hello, I'm</p>
+         <h1 class="title"> Martyna Zglinska</h1>
+         <p class="section_text_p2">Data Analyst</p>
         <div class="btn-container">
             <button class="btn btn-color-2" onclick="window.open('./assets/Martyna Zglinska Resume.pdf')">
                 Download CV
@@ -60,10 +60,10 @@
       </section>
       <section id="about">
         <p class="section_text_p1">Get To Know More</p>
-        <p class="title">About Me</p>
+        <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section_pic-container2">
-                <img src="./assets/profile2.jpeg" alt="Profile picture" 
+                <img src="./assets/Profile22.png" alt="Profile picture" 
                 class="about-pic"/>
             </div>
             <div class="about-details-container">
@@ -82,20 +82,98 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Et, unde. Ipsa, ducimus 
-                        amet dolorum eius dolores facere, 
-                        voluptas praesentium repellat, aliquid vitae excepturi. Asperiores molestias 
-                        nostrum blanditiis iusto illum obcaecati.
+                    <p>Detail-oriented data analyst with expertise in Python, SQL, and Power BI, currently developing dashboards
+                        and machine learning models at Endeavor to support marketing and operations teams. Skilled in transforming
+                        complex data into actionable insights, driving strategic decisions. Passionate about leveraging analytics to
+                        solve problems and deliver innovative solutions in dynamic, fast-paced environments.
                     </p>
                 </div>
             </div>
         </div>
         <img 
-        src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#projects'"
+            src="./assets/arrow.png" alt="Arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#projects'"
         />
       </section>
+      <section id="projects">
+        <p class="section_text_p1"> Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <p class="project1-title">Project One</p>
+                </div>
+                <h2 class="experience-sub-title project-title">Promotion Forecasting</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/martynkaz/promotions_forecasting'">
+                    Github
+                </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <p class="project1-title">Project Two</p>
+                </div>
+                <h2 class="experience-sub-title project-title">Dating Match Predictor - Streamlit</h2>
+                <p class="project-upcoming"> Coming Soon</p>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href=''">
+                    Github
+                </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+    />
+      </section>
+      <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon"
+                class="icon contact-icon email-icon"
+                />
+                <p>
+                    <a href="mailto:martyna.zglinska9@gmail.com">
+                        martyna.zglinska9@gmail.com
+                </a>
+            </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon"
+                class="icon contact-icon"
+                />
+                <p>
+                    <a href="https://www.linkedin.com/in/martyna-zglinska-8664a6171/">
+                        LinkedIn
+                </a>
+            </p>
+            </div>
+        </div>
+
+      </section>
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a> </li> 
+                        <li><a href="#projects">Projects</a> </li> 
+                        <li><a href="#contact">Contact</a> </li> 
+                    </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Martyna Zglinska. All rights reserved</p>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
