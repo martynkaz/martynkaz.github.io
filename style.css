@@ -304,15 +304,14 @@ text-decoration-color: rgb(181, 181, 181);
     bottom: 2.5rem;
   }
 
-  .section_pic-container2 {
+  .section_pic-container2{
     display: flex;
-    height: 325px;
-    width: 325x; 
+    height: 300px;
+    width: 400px;
     margin: auto;
-    border-radius: 15px;
-    overflow: hidden;
-    object-fit: cover; 
-  
+    border-radius: 10px;
+   overflow: hidden;
+    /*filter: grayscale(100%)*/;
   }
   
 .details-container {
