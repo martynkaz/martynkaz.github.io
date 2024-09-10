@@ -175,7 +175,7 @@ text-decoration-color: rgb(181, 181, 181);
     width: 400px;
     margin: auto;
     border-radius: 50%;
-   overflow: hidden;
+    overflow: hidden;
     /*filter: grayscale(100%)*/;
   }
 
@@ -310,9 +310,10 @@ text-decoration-color: rgb(181, 181, 181);
     width: 400px;
     margin: auto;
     border-radius: 10px;
-   overflow: hidden;
+    overflow: hidden;
     /*filter: grayscale(100%)*/;
   }
+
   
 .details-container {
     padding: 1.5rem;
